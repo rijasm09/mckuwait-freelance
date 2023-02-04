@@ -5,10 +5,11 @@ $(document).ready(function(){
     $(".sub-menu").slideToggle();
   });
 
-  var HeaderHeight = $(".header-section").outerHeight();
-  if (window.matchMedia('(max-width: 991.98px)').matches) {
-      $("body").css("padding-top", HeaderHeight);
-    }
+  // var HeaderHeight = $(".header-section").outerHeight();
+  // if (window.matchMedia('(max-width: 992px)').matches) {
+  //     $("body").css("padding-top", HeaderHeight);
+  //   }
+
 
 });
 
